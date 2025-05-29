@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot PMB PCR</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    #chat { max-width: 600px; margin: auto; }
+    .bubble { padding: 10px; margin: 5px; border-radius: 10px; }
+    .user { background-color: #e0f7fa; text-align: right; }
+    .bot { background-color: #f1f8e9; text-align: left; }
+  </style>
+</head>
+<body>
+  <div id="chat">
+    <h2>Chatbot PMB PCR</h2>
+    <div id="messages"></div>
+    <input id="userInput" type="text" placeholder="Tulis pertanyaan..." />
+    <button onclick="sendMessage()">Kirim</button>
+  </div>
+
+  <script>
+    function sendMessage() {
+      const input = document.getElementById("userInput");
+      const text = input.value;
+      if (!text) return;
+      appendMessage(text, "user");
+      fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text })
+      })
+      .then(res => res.json())
+      .then(data => {
+        appendMessage(data.response, "bot");
+      });
+      input.value = "";
+    }
+
+    function appendMessage(text, sender) {
+      const msg = document.createElement("div");
+      msg.className = `bubble ${sender}`;
+      msg.innerText = text;
+      document.getElementById("messages").appendChild(msg);
+    }
+  </script>
+</body>
+</html>
