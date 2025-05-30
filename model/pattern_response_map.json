@@ -1,0 +1,258 @@
+{
+  "akun": [
+    {
+      "pattern": "Bagaimana jika lupa password?",
+      "response": "Jika Lupa Password Bisa klik Lupa Password pada menu Login ya."
+    },
+    {
+      "pattern": "bagaimana cara membuat akun pmb?",
+      "response": "Jika Lupa Password Bisa klik Lupa Password pada menu Login ya."
+    },
+    {
+      "pattern": "Saya lupa password PMB",
+      "response": "Jika Anda lupa password, silakan gunakan fitur lupa password di portal PMB atau hubungi panitia melalui kontak resmi."
+    },
+    {
+      "pattern": "Bagaimana kalau lupa akun PMB?",
+      "response": "Jika Anda lupa password, silakan gunakan fitur lupa password di portal PMB atau hubungi panitia melalui kontak resmi."
+    },
+    {
+      "pattern": "Saya tidak bisa login ke sistem PMB",
+      "response": "Jika Anda lupa password, silakan gunakan fitur lupa password di portal PMB atau hubungi panitia melalui kontak resmi."
+    },
+    {
+      "pattern": "Cara reset password akun PMB",
+      "response": "Jika Anda lupa password, silakan gunakan fitur lupa password di portal PMB atau hubungi panitia melalui kontak resmi."
+    },
+    {
+      "pattern": "Portal PMB saya tidak bisa diakses",
+      "response": "Jika Anda lupa password, silakan gunakan fitur lupa password di portal PMB atau hubungi panitia melalui kontak resmi."
+    },
+    {
+      "pattern": "Akun saya error saat login ke PMB",
+      "response": "Jika Anda lupa password, silakan gunakan fitur lupa password di portal PMB atau hubungi panitia melalui kontak resmi."
+    },
+    {
+      "pattern": "Gagal login ke akun pendaftaran",
+      "response": "Jika Anda lupa password, silakan gunakan fitur lupa password di portal PMB atau hubungi panitia melalui kontak resmi."
+    }
+  ],
+  "beasiswa": [
+    {
+      "pattern": "Apakah PCR menyediakan beasiswa?",
+      "response": "Wajib upload salah satu dari berkas KIP/DTKS/PKH. Jika masih dalam kepengurusan, untuk sementara boleh upload surat kepengurusan di sistem. Dengan syarat nanti pada saat wawancara calon beasiswa sudah melampirkan salah satu berkas diatas."
+    },
+    {
+      "pattern": "Syarat untuk mendapatkan beasiswa apa aja?",
+      "response": "Wajib upload salah satu dari berkas KIP/DTKS/PKH. Jika masih dalam kepengurusan, untuk sementara boleh upload surat kepengurusan di sistem. Dengan syarat nanti pada saat wawancara calon beasiswa sudah melampirkan salah satu berkas diatas."
+    },
+    {
+      "pattern": "Kapan pendaftaran beasiswa dibuka?",
+      "response": "Wajib upload salah satu dari berkas KIP/DTKS/PKH. Jika masih dalam kepengurusan, untuk sementara boleh upload surat kepengurusan di sistem. Dengan syarat nanti pada saat wawancara calon beasiswa sudah melampirkan salah satu berkas diatas."
+    },
+    {
+      "pattern": "PCR punya beasiswa penuh?",
+      "response": "Wajib upload salah satu dari berkas KIP/DTKS/PKH. Jika masih dalam kepengurusan, untuk sementara boleh upload surat kepengurusan di sistem. Dengan syarat nanti pada saat wawancara calon beasiswa sudah melampirkan salah satu berkas diatas."
+    },
+    {
+      "pattern": "Beasiswa apa yang tersedia di PCR?",
+      "response": "Wajib upload salah satu dari berkas KIP/DTKS/PKH. Jika masih dalam kepengurusan, untuk sementara boleh upload surat kepengurusan di sistem. Dengan syarat nanti pada saat wawancara calon beasiswa sudah melampirkan salah satu berkas diatas."
+    }
+  ],
+  "biaya": [
+    {
+      "pattern": "Berapa biaya kuliah di PCR?",
+      "response": "Biaya kuliah di PCR tergantung program studi. Silakan cek website resmi."
+    },
+    {
+      "pattern": "UKT PCR berapa?",
+      "response": "Biaya kuliah di PCR tergantung program studi. Silakan cek website resmi."
+    },
+    {
+      "pattern": "Biaya kuliah PCR per semester berapa?",
+      "response": "Biaya kuliah di PCR tergantung program studi. Silakan cek website resmi."
+    },
+    {
+      "pattern": "Ada uang pangkal kah di PCR?",
+      "response": "Biaya kuliah di PCR tergantung program studi. Silakan cek website resmi."
+    },
+    {
+      "pattern": "Total biaya yang harus dibayar untuk kuliah di PCR berapa ya?",
+      "response": "Biaya kuliah di PCR tergantung program studi. Silakan cek website resmi."
+    },
+    {
+      "pattern": "Biaya pendaftaran PMB berapa ya?",
+      "response": "Biaya kuliah di PCR tergantung program studi. Silakan cek website resmi."
+    },
+    {
+      "pattern": "Berapa perkiraan pengeluaran mahasiswa baru PCR?",
+      "response": "Biaya kuliah di PCR tergantung program studi. Silakan cek website resmi."
+    }
+  ],
+  "umum": [
+    {
+      "pattern": "bagaimana keadaan laboratorium di pcr?",
+      "response": "PCR memilki lebih kurang 32 Laboratorium (masuk di dalamnya Studio Gambar, Studio Animasi dan Ruangan Cyber Security) untuk dapat membantu proses belajar mengajar secara praktek dengan kapasitas setiap Laboratoriumnya sebanyak 30 – 36 tempat duduk yang pengelolaannya dibawah Jurusan yang ada di PCR yaitu Jurusan Komputer, Jurusan Elektro dan Jurusan Akuntansi dan Bisnis. Fasilitas yang dimiliki setiap laboratorium adalah AC, Proyektor dan screen serta Peralatan-peralatan pendukung kegiatan di laboratorium."
+    },
+    {
+      "pattern": "bagaimana keadaan perpustakaan di pcr?",
+      "response": "PCR memilki lebih kurang 32 Laboratorium (masuk di dalamnya Studio Gambar, Studio Animasi dan Ruangan Cyber Security) untuk dapat membantu proses belajar mengajar secara praktek dengan kapasitas setiap Laboratoriumnya sebanyak 30 – 36 tempat duduk yang pengelolaannya dibawah Jurusan yang ada di PCR yaitu Jurusan Komputer, Jurusan Elektro dan Jurusan Akuntansi dan Bisnis. Fasilitas yang dimiliki setiap laboratorium adalah AC, Proyektor dan screen serta Peralatan-peralatan pendukung kegiatan di laboratorium."
+    },
+    {
+      "pattern": "bagaimana keadaan laboratorium workshop di pcr?",
+      "response": "PCR memilki lebih kurang 32 Laboratorium (masuk di dalamnya Studio Gambar, Studio Animasi dan Ruangan Cyber Security) untuk dapat membantu proses belajar mengajar secara praktek dengan kapasitas setiap Laboratoriumnya sebanyak 30 – 36 tempat duduk yang pengelolaannya dibawah Jurusan yang ada di PCR yaitu Jurusan Komputer, Jurusan Elektro dan Jurusan Akuntansi dan Bisnis. Fasilitas yang dimiliki setiap laboratorium adalah AC, Proyektor dan screen serta Peralatan-peralatan pendukung kegiatan di laboratorium."
+    },
+    {
+      "pattern": "selain fasilitas yang disebutkan, apa lagi fasilitas yang lain?",
+      "response": "PCR memilki lebih kurang 32 Laboratorium (masuk di dalamnya Studio Gambar, Studio Animasi dan Ruangan Cyber Security) untuk dapat membantu proses belajar mengajar secara praktek dengan kapasitas setiap Laboratoriumnya sebanyak 30 – 36 tempat duduk yang pengelolaannya dibawah Jurusan yang ada di PCR yaitu Jurusan Komputer, Jurusan Elektro dan Jurusan Akuntansi dan Bisnis. Fasilitas yang dimiliki setiap laboratorium adalah AC, Proyektor dan screen serta Peralatan-peralatan pendukung kegiatan di laboratorium."
+    },
+    {
+      "pattern": "bagaimana keadaan ruang kelas di pcr?",
+      "response": "PCR memilki lebih kurang 32 Laboratorium (masuk di dalamnya Studio Gambar, Studio Animasi dan Ruangan Cyber Security) untuk dapat membantu proses belajar mengajar secara praktek dengan kapasitas setiap Laboratoriumnya sebanyak 30 – 36 tempat duduk yang pengelolaannya dibawah Jurusan yang ada di PCR yaitu Jurusan Komputer, Jurusan Elektro dan Jurusan Akuntansi dan Bisnis. Fasilitas yang dimiliki setiap laboratorium adalah AC, Proyektor dan screen serta Peralatan-peralatan pendukung kegiatan di laboratorium."
+    },
+    {
+      "pattern": "Apakah di PCR bisa kuliah sambil kerja? atau ada kelas karyawan?",
+      "response": "Untuk D4 setara S1 tidak dianjurkan kuliah sambil kerja karena metode perkuliahan offline biasanya masuk dari pagi hingga sore. Tapi di jalur S2 recommended untuk yang bekerja karena metode perkuliahannya hybrid (online dan sesekali offline)."
+    },
+    {
+      "pattern": "Jika sudah daftar ke PCR, apakah bisa daftar ke kampus lain?",
+      "response": "Untuk D4 setara S1 tidak dianjurkan kuliah sambil kerja karena metode perkuliahan offline biasanya masuk dari pagi hingga sore. Tapi di jalur S2 recommended untuk yang bekerja karena metode perkuliahannya hybrid (online dan sesekali offline)."
+    },
+    {
+      "pattern": "Jika mau ubah pilihan jurusan / prodi, bagaimana caranya?",
+      "response": "Untuk D4 setara S1 tidak dianjurkan kuliah sambil kerja karena metode perkuliahan offline biasanya masuk dari pagi hingga sore. Tapi di jalur S2 recommended untuk yang bekerja karena metode perkuliahannya hybrid (online dan sesekali offline)."
+    },
+    {
+      "pattern": "Apa saja persyaratan PSUD Reguler?",
+      "response": "Untuk D4 setara S1 tidak dianjurkan kuliah sambil kerja karena metode perkuliahan offline biasanya masuk dari pagi hingga sore. Tapi di jalur S2 recommended untuk yang bekerja karena metode perkuliahannya hybrid (online dan sesekali offline)."
+    },
+    {
+      "pattern": "Apa saja persyaratan beasiswa?",
+      "response": "Untuk D4 setara S1 tidak dianjurkan kuliah sambil kerja karena metode perkuliahan offline biasanya masuk dari pagi hingga sore. Tapi di jalur S2 recommended untuk yang bekerja karena metode perkuliahannya hybrid (online dan sesekali offline)."
+    }
+  ],
+  "jadwal": [
+    {
+      "pattern": "Kapan jadwal pendaftaran PMB PCR dimulai?",
+      "response": "Pendaftaran dibuka mulai Maret. Info lengkap ada di situs pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Deadline daftar PMB kapan ya?",
+      "response": "Pendaftaran dibuka mulai Maret. Info lengkap ada di situs pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Tanggal penting PMB PCR apa aja?",
+      "response": "Pendaftaran dibuka mulai Maret. Info lengkap ada di situs pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Sampai kapan bisa daftar ke PCR?",
+      "response": "Pendaftaran dibuka mulai Maret. Info lengkap ada di situs pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Jadwal tes seleksi PCR tahun ini gimana?",
+      "response": "Pendaftaran dibuka mulai Maret. Info lengkap ada di situs pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "PMB PCR dibuka dari kapan sampai kapan?",
+      "response": "Pendaftaran dibuka mulai Maret. Info lengkap ada di situs pmb.pcr.ac.id."
+    }
+  ],
+  "jalur pendaftaran": [
+    {
+      "pattern": "Jalur apa saja yang ada di PCR?",
+      "response": "jalur pendaftaran di pcr ada beberapa jalur, seperti PSUD, UMPCR, FAST TRACK, dan beberapa jalur beasiswa seperti PCR-ROHIL, Dumai, Bidikmisi, pemprov, dan besiswa unggul."
+    },
+    {
+      "pattern": "Pada jalur PSUD, Prodi apa saja yang bisa dipilih jika jurusannya IPA?",
+      "response": "jalur pendaftaran di pcr ada beberapa jalur, seperti PSUD, UMPCR, FAST TRACK, dan beberapa jalur beasiswa seperti PCR-ROHIL, Dumai, Bidikmisi, pemprov, dan besiswa unggul."
+    },
+    {
+      "pattern": "Pada jalur PSUD, Prodi apa saja yang bisa dipilih jika jurusannya IPS?",
+      "response": "jalur pendaftaran di pcr ada beberapa jalur, seperti PSUD, UMPCR, FAST TRACK, dan beberapa jalur beasiswa seperti PCR-ROHIL, Dumai, Bidikmisi, pemprov, dan besiswa unggul."
+    },
+    {
+      "pattern": "Bagaimana jika ada siswa SMK yang ingin mendaftar ke PCR melihat jurusannya tidak sesuai dengan prodi yang ada di PCR (jalur PSUD)?",
+      "response": "jalur pendaftaran di pcr ada beberapa jalur, seperti PSUD, UMPCR, FAST TRACK, dan beberapa jalur beasiswa seperti PCR-ROHIL, Dumai, Bidikmisi, pemprov, dan besiswa unggul."
+    }
+  ],
+  "jurusan": [
+    {
+      "pattern": "apa saja jurusan teknologi industri yang ada di pcr?",
+      "response": "ada 5 prodi. Seperti teknik elektronika telekomunikasi, teknik elektro arus kuat, teknik mesin, teknik jaringan telekomunikasi telekomunikasi, teknik elektronika, mekatronika."
+    },
+    {
+      "pattern": "apa saja jurusan teknologi informasi?",
+      "response": "ada 5 prodi. Seperti teknik elektronika telekomunikasi, teknik elektro arus kuat, teknik mesin, teknik jaringan telekomunikasi telekomunikasi, teknik elektronika, mekatronika."
+    },
+    {
+      "pattern": "apa saja jurusan bisnis dan komunikasi?",
+      "response": "ada 5 prodi. Seperti teknik elektronika telekomunikasi, teknik elektro arus kuat, teknik mesin, teknik jaringan telekomunikasi telekomunikasi, teknik elektronika, mekatronika."
+    },
+    {
+      "pattern": "apakah ada S2 di pcr?",
+      "response": "ada 5 prodi. Seperti teknik elektronika telekomunikasi, teknik elektro arus kuat, teknik mesin, teknik jaringan telekomunikasi telekomunikasi, teknik elektronika, mekatronika."
+    }
+  ],
+  "prosedur": [
+    {
+      "pattern": "Jika sudah melengkapi data dan sudah upload berkas yang diperlukan kenapa masih merah?",
+      "response": "Masih merah karena belum di verifikasi oleh Tim PMB. Jika sudah melengkapi data dan upload berkas, mohon menunggu hingga Tim PMB Verifikasi berkas terlebih dahulu."
+    },
+    {
+      "pattern": "Dimana bisa didapatkan format blanko nilai?",
+      "response": "Masih merah karena belum di verifikasi oleh Tim PMB. Jika sudah melengkapi data dan upload berkas, mohon menunggu hingga Tim PMB Verifikasi berkas terlebih dahulu."
+    },
+    {
+      "pattern": "Jika ada kesalahan isi data atau upload berkas, apakah bisa diubah lagi datanya?",
+      "response": "Masih merah karena belum di verifikasi oleh Tim PMB. Jika sudah melengkapi data dan upload berkas, mohon menunggu hingga Tim PMB Verifikasi berkas terlebih dahulu."
+    },
+    {
+      "pattern": "Jika tidak ada data pilihan jurusan asal di sistem, diisi apa disistem?",
+      "response": "Masih merah karena belum di verifikasi oleh Tim PMB. Jika sudah melengkapi data dan upload berkas, mohon menunggu hingga Tim PMB Verifikasi berkas terlebih dahulu."
+    },
+    {
+      "pattern": "Bagaimana cara menginputkan nilai rapor yang diinput ke sistem?",
+      "response": "Masih merah karena belum di verifikasi oleh Tim PMB. Jika sudah melengkapi data dan upload berkas, mohon menunggu hingga Tim PMB Verifikasi berkas terlebih dahulu."
+    },
+    {
+      "pattern": "Nilai yang diinput apakah wajib / peminatan? pengetahuan / keterampilan?",
+      "response": "Masih merah karena belum di verifikasi oleh Tim PMB. Jika sudah melengkapi data dan upload berkas, mohon menunggu hingga Tim PMB Verifikasi berkas terlebih dahulu."
+    }
+  ],
+  "fallback": [
+    {
+      "pattern": "zzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+      "response": "Maaf, saya belum memahami pertanyaan Anda. Silakan coba dengan kalimat lain atau hubungi panitia PMB."
+    }
+  ],
+  "jalur_masuk": [
+    {
+      "pattern": "Apa itu jalur PSUD?",
+      "response": "PCR memiliki beberapa jalur masuk seperti reguler, PSUD, dan beasiswa. Info lengkap tersedia di pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Jalur beasiswa PCR apakah ada?",
+      "response": "PCR memiliki beberapa jalur masuk seperti reguler, PSUD, dan beasiswa. Info lengkap tersedia di pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Bedanya jalur reguler dan PSUD?",
+      "response": "PCR memiliki beberapa jalur masuk seperti reguler, PSUD, dan beasiswa. Info lengkap tersedia di pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Jalur PMDK itu apa?",
+      "response": "PCR memiliki beberapa jalur masuk seperti reguler, PSUD, dan beasiswa. Info lengkap tersedia di pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Saya ingin masuk lewat jalur PSUD, apa syaratnya?",
+      "response": "PCR memiliki beberapa jalur masuk seperti reguler, PSUD, dan beasiswa. Info lengkap tersedia di pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "Ada seleksi khusus untuk PSUD?",
+      "response": "PCR memiliki beberapa jalur masuk seperti reguler, PSUD, dan beasiswa. Info lengkap tersedia di pmb.pcr.ac.id."
+    },
+    {
+      "pattern": "PCR punya jalur prestasi?",
+      "response": "PCR memiliki beberapa jalur masuk seperti reguler, PSUD, dan beasiswa. Info lengkap tersedia di pmb.pcr.ac.id."
+    }
+  ]
+}

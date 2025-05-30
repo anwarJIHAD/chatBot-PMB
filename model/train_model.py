@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Embedding, GlobalAveragePooling1D, Dense
 from tensorflow.keras.models import save_model
 
 # --- 1. Load dataset dari Excel ---
-df = pd.read_excel("data/faq_dataset.xlsx")
+df = pd.read_excel("data/faq_dataset_final.xlsx")
 
 # Validasi kolom
 required_cols = {"intent", "pattern", "response"}
