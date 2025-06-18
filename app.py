@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.text import tokenizer_from_json
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+import os
 app = Flask(__name__)
 
 # --- Load model dan komponen ---
@@ -79,5 +79,7 @@ def chat():
 
     return jsonify({"response": response})
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
