@@ -1,63 +1,226 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Chatbot PMB PCR</title>
-    <style>
-      body {
-        font-family: Arial;
-        padding: 20px;
-      }
-      #chat {
-        max-width: 600px;
-        margin: auto;
-      }
-      .bubble {
-        padding: 10px;
-        margin: 5px;
-        border-radius: 10px;
-      }
-      .user {
-        background-color: #e0f7fa;
-        text-align: right;
-      }
-      .bot {
-        background-color: #f1f8e9;
-        text-align: left;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="chat">
-      <h2>Chatbot PMB PCR</h2>
-      <div id="messages"></div>
-      <input id="userInput" type="text" placeholder="Tulis pertanyaan..." />
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chatbot PMB PCR</title>
+  <style>
+    :root {
+      --bg-light: #f6fdf5;
+      --bg-dark: #1e1e1e;
+      --chat-light: #ffffff;
+      --chat-dark: #2e2e2e;
+      --user-bubble-light: #c7f3d0;
+      --user-bubble-dark: #4caf50;
+      --bot-bubble-light: #e6fbe0;
+      --bot-bubble-dark: #3a3a3a;
+      --text-light: #222;
+      --text-dark: #eee;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      transition: 0.3s ease;
+    }
+
+    body.dark {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    #chat {
+      width: 100%;
+      max-width: 600px;
+      background-color: var(--chat-light);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: 0.3s ease;
+    }
+
+    body.dark #chat {
+      background-color: var(--chat-dark);
+    }
+
+    header {
+      background-color: #a8d5a0;
+      padding: 16px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #toggleMode {
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #messages {
+      padding: 20px;
+      flex: 1;
+      overflow-y: auto;
+      background-color: transparent;
+    }
+
+    .bubble {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .bubble .msg {
+      max-width: 80%;
+      padding: 12px 16px;
+      border-radius: 16px;
+      white-space: pre-wrap;
+      line-height: 1.4;
+    }
+
+    .bot .msg {
+      background-color: var(--bot-bubble-light);
+      border-top-left-radius: 0;
+    }
+
+    .user {
+      flex-direction: row-reverse;
+    }
+
+    .user .msg {
+      background-color: var(--user-bubble-light);
+      border-top-right-radius: 0;
+    }
+
+    body.dark .bot .msg {
+      background-color: var(--bot-bubble-dark);
+      color: var(--text-dark);
+    }
+
+    body.dark .user .msg {
+      background-color: var(--user-bubble-dark);
+      color: white;
+    }
+
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    #input-area {
+      display: flex;
+      padding: 16px;
+      border-top: 1px solid #ddd;
+      background-color: #f9fff9;
+    }
+
+    body.dark #input-area {
+      background-color: #2c2c2c;
+    }
+
+    #userInput {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      background-color: white;
+      color: black;
+    }
+
+    body.dark #userInput {
+      background-color: #444;
+      color: white;
+      border: 1px solid #666;
+    }
+
+    button {
+      margin-left: 10px;
+      padding: 10px 16px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat">
+    <header>
+      Chatbot PMB PCR
+      <button id="toggleMode" onclick="toggleDarkMode()">🌙</button>
+    </header>
+    <div id="messages"></div>
+    <div id="input-area">
+      <input id="userInput" type="text" placeholder="Tulis pertanyaan Anda..." />
       <button onclick="sendMessage()">Kirim</button>
     </div>
+  </div>
 
-    <script>
-      function sendMessage() {
-        const input = document.getElementById('userInput');
-        const text = input.value;
-        if (!text) return;
-        appendMessage(text, 'user');
-        fetch('/chat', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message: text }),
-        })
-          .then((res) => res.json())
-          .then((data) => {
-            appendMessage(data.response, 'bot');
-          });
-        input.value = '';
-      }
+  <script>
+    const messagesDiv = document.getElementById("messages");
 
-      function appendMessage(text, sender) {
-        const msg = document.createElement('div');
-        msg.className = `bubble ${sender}`;
-        msg.innerText = text;
-        document.getElementById('messages').appendChild(msg);
-      }
-    </script>
-  </body>
+    function sendMessage() {
+      const input = document.getElementById("userInput");
+      const text = input.value.trim();
+      if (!text) return;
+
+      appendMessage(text, 'user');
+      fetch('/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: text }),
+      })
+      .then(res => res.json())
+      .then(data => {
+        appendMessage(data.response, 'bot');
+      });
+
+      input.value = '';
+    }
+
+    function appendMessage(text, sender) {
+      const wrapper = document.createElement('div');
+      wrapper.className = `bubble ${sender}`;
+
+      const avatar = document.createElement('img');
+      avatar.className = 'avatar';
+      avatar.src = sender === 'user' ? 'https://i.pravatar.cc/150?img=12' : 'https://i.ibb.co/YD8b8cP/robot-avatar.png'; // ganti sesuai avatar Anda
+
+      const message = document.createElement('div');
+      message.className = 'msg';
+      message.innerText = text;
+
+      wrapper.appendChild(avatar);
+      wrapper.appendChild(message);
+      messagesDiv.appendChild(wrapper);
+      wrapper.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
+</body>
 </html>
